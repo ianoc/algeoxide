@@ -56,4 +56,4 @@ macro_rules! gen_semigroup_num {
 }
 
 gen_semigroup_num!(u8 u16 i8 i16 i32 u32);
-gen_semigroup_seq!(u8, i32, i16, u32);
+gen_semigroup_seq!(u8, u16, u32, i8, i16, i32);
